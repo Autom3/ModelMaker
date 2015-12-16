@@ -1,0 +1,14 @@
+name: ModelMaker
+version: 1.0
+main: me.autom.modelmaker.ModelMaker
+author: Autom
+depend: [WorldEdit]
+description: >
+             Make models for resource packs
+
+commands:
+    make:
+        description: "Make a model"
+permissions:
+    modelmaker.make:
+        description: Allows the make command
